@@ -1,0 +1,162 @@
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+	background: #F7F7F7;
+}
+
+#container {
+	height: 100%;
+	width: 700px;
+    padding: 0;
+    margin: 30px auto;
+}
+
+h1 {
+	padding-top: 20px;
+	font-weight: 200;
+	font-family: 'Arial';
+}
+
+.content {
+	background: #fff;
+	position: relative;
+	padding: 20px 0 15px 0;
+}
+
+img {
+	position: absolute;
+	right: -6%;
+	top: -55%;
+	-ms-transform: rotate(30deg); 				/* IE 9 */
+    -webkit-transform: rotate(30deg); 			/* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#board {
+	min-width: 700px;
+	width: 100%;
+	min-height: 300px;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#form {
+	margin-left: 9%;
+}
+
+legend {
+	margin: 0 0 8px 12px;
+	font-size: 17px;
+	color: #9C9C9C;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+#amount {
+	font-size: 22px;
+	border: 0.5px solid #9C9C9C;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+	border-right: 0;
+	padding: 20px 0 20px 20px;
+	margin-right: -4px;
+}
+
+#amount:focus {
+	outline: none;
+	background-color: #9C9C9C;
+	color: #fff;
+}
+
+#button {
+	background-color: #59D999;
+	color: #fff;
+	padding: 20px;
+	font-size: 22px;
+	text-transform: uppercase;
+	border: 0.5px solid #9C9C9C;
+	border-left: 0;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#button:focus {
+	outline: none;
+}
+
+#button:hover {
+	background-color: #59D777;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important; 
+	-webkit-box-shadow: 0 0 0 1000px #9C9C9C inset !important;
+}
+
+.column-container {
+	width: 350px;
+	height: 170px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#board div:nth-of-type(2n){
+	margin-right: -7.5%;
+	margin-left: 7%;
+}
+
+.column {
+  width: 300px;
+  min-height: 12vh;
+  height: 13vh;
+  background-color: #fff;
+  margin: 9% 0 0 0;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+h5 {
+	margin: 0;
+	color: #9C9C9C;
+	font-weight: 200;
+}
+
+h2 {
+	margin-top: 13px;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 10px 0 8px 1%;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  width: 300px;
+  float: left;
+  color: #9C9C9C;
+}
+
+#iconStyle {
+	font-size: 12px;
+}
