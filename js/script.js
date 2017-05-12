@@ -53,3 +53,10 @@ function calculate()
 	document.getElementById('board').appendChild(columnContainer);
 }
 
+document.getElementById('amount')
+    .addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById('button').click();
+    }
+});
